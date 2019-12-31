@@ -2,9 +2,83 @@
  * Created by Noisky on 17/05/13.
  * Revised by Noisky on 19/08/29.
  */
-@import url(animate.css);
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+@import url(animate.css);
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -13,7 +87,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-size: 100%;
 }
 
-tbody, tfoot, thead, tr, th, td {
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
     margin: 0;
     padding: 0;
     border: 0;
@@ -21,8 +100,20 @@ tbody, tfoot, thead, tr, th, td {
     font-size: 100%;
 }
 
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
     display: block;
 }
 
@@ -30,11 +121,13 @@ body {
     line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
     list-style: none;
 }
 
-body:before, body:after {
+body:before,
+body:after {
     display: table;
     content: "";
 }
@@ -43,7 +136,8 @@ body:after {
     clear: both;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -130,16 +224,21 @@ em {
     font-style: italic;
 }
 
-ol, ul {
+ol,
+ul {
     margin: 0 0 .3em 1em;
 }
 
-ol li, ul li {
+ol li,
+ul li {
     margin: 0 0 .2em 0;
     line-height: 1.6em;
 }
 
-ol ol, ol ul, ul ol, ul ul {
+ol ol,
+ol ul,
+ul ol,
+ul ul {
     margin: .1em 0 .2em 2em;
 }
 
@@ -174,7 +273,6 @@ ul {
     font-size: .7em;
 }
 
-
 .logo {
     width: 25%;
     border: 3px solid #FFF;
@@ -197,6 +295,7 @@ ul {
     /* IE 9 */
 }
 
+
 /* 微博图标
 .Weibo_icon_logo {
     width: 20px;
@@ -218,7 +317,9 @@ ul {
     right: 42px;
 }*/
 
+
 /* 国旗 */
+
 .Weibo_icon_position {
     position: relative;
     right: 42px;
@@ -244,7 +345,6 @@ hr {
 .hidden {
     display: none !important;
 }
-
 
 .panel-title {
     margin: 0 0 15px 0;
@@ -272,7 +372,6 @@ hr {
     background: url(./img/background-image/bg-1.jpg) top left no-repeat #666666;
     background-size: cover;
 }
-
 
 .panel-cover--overlay {
     position: fixed;
@@ -325,7 +424,6 @@ hr {
     max-width: 620px;
 }
 
-
 .panel-inverted {
     color: #FFF;
     text-align: center;
@@ -342,10 +440,12 @@ hr {
 }
 
 .cover-navigation {
-    margin-top: 42px;
+    margin-bottom: 42px;
 }
 
+
 /*背景覆盖层*/
+
 .cover-blue {
     background-color: rgba(37, 104, 163, 0.6);
     background-image: -webkit-linear-gradient(-410deg, rgba(37, 104, 163, 0.6) 20%, rgba(18, 51, 80, 0.8));
@@ -398,7 +498,6 @@ hr {
     border-color: #d06c44;
     color: #d06c44;
 }
-
 
 .btn-mobile-menu {
     position: fixed;
@@ -513,16 +612,13 @@ nav {
     .panel-title {
         font-size: 2em;
     }
-
     .panel-subtitle {
         font-size: 1em;
     }
-
     .panel-cover_description {
         margin: 0 10px;
         font-size: .9em;
     }
-
     .navigation--social {
         margin-top: 5px;
         margin-left: 0;
@@ -533,33 +629,27 @@ nav {
     .btn-mobile-menu {
         display: block;
     }
-
     .qrCode[data-v] {
         Margin: 0 41%;
     }
-
     .panel-main {
         position: relative;
         display: table;
     }
-
     .panel-main_inner {
         display: table-cell;
         padding: 60px 10%;
     }
-
     .panel-cover_description {
         display: block;
         margin: 0 auto;
         max-width: 600px;
     }
-
     .panel-cover {
         width: 100%;
         height: 100%;
         background-position: center center;
     }
-
     .panel-cover.panel-cover--collapsed {
         position: relative;
         display: block;
@@ -567,42 +657,36 @@ nav {
         height: auto;
         background-position: center center;
     }
-
     .panel-cover.panel-cover--collapsed .panel-main_inner {
         display: block;
         padding: 70px 0 30px 0;
     }
-
     .panel-cover.panel-cover--collapsed .panel-cover_logo {
         width: 60px;
         border-width: 2px;
     }
-
     .panel-cover.panel-cover--collapsed .panel-cover_description {
         display: none;
     }
-
     .panel-cover.panel-cover--collapsed .panel-cover_divider {
         display: none;
         margin: 1em auto;
     }
-
     .navigation-wrapper {
         position: fixed;
         top: 0;
         right: 0;
         left: 0;
         display: none;
+        margin-bottom: 24px;
         padding: 20px 0;
         width: 100%;
         border-bottom: 1px solid rgba(255, 255, 255, 0.15);
         background: rgba(51, 51, 51, 0.98);
     }
-
     .navigation-wrapper.visible {
         display: block;
     }
-
     .cover-navigation {
         position: relative;
         float: left;
@@ -610,26 +694,21 @@ nav {
         display: block;
         width: 100%;
     }
-
     .cover-navigation .navigation {
         display: block;
         width: 100%;
     }
-
     .cover-navigation .navigation li {
         margin-bottom: .4em;
         width: 80%;
     }
-
     .cover-navigation.navigation--social {
         padding-top: 5px;
     }
-
     .cover-navigation.navigation--social .navigation li {
         display: inline-block;
         width: 25.8%;
     }
-
     .navigation_item {
         margin: 0 0 .4em 0;
         width: 100%;
@@ -640,12 +719,10 @@ nav {
     .panel-cover_logo {
         width: 100px;
     }
-
     .Weibo_icon_position {
         top: -6px;
         right: 35px;
     }
-
     .qrCode[data-v] {
         Margin: 0 38%;
     }
@@ -661,17 +738,15 @@ nav {
     .panel-main_inner {
         padding: 0 5%;
     }
-
     .panel-title {
         margin-bottom: .1em;
         font-size: 1.5em;
     }
-
     .panel-subtitle {
         font-size: .9em;
     }
-
-    .btn, .navigation_item a {
+    .btn,
+    .navigation_item a {
         margin-bottom: .4em;
     }
 }
